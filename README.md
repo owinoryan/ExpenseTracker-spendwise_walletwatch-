@@ -124,7 +124,7 @@ python app.py
 ### View Expenses: (4)
 
 > View Expenses
-> User: Ryan Owino
+> User: Ryan Giggs
 
 1. 500.00 KES for Groceries on 2024-09-18 (Weekly grocery shopping)
 
@@ -137,3 +137,11 @@ python app.py
 ### Quit: (6)
 
 > Exit the application.
+
+### Database Schema
+
+The project uses three tables: users, categories, and expenses, with the following relationships:
+
+1. User: Represents a person who logs expenses.
+2. Category: Represents an expense category (e.g., Groceries, Rent).
+3. Expense: Represents an individual expense. Each expense is linked to a user and a category.
